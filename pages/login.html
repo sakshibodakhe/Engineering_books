@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: rgb(45, 29, 89);
+        }
+
+        .box {
+            width: 350px;
+            height: 400px;
+            background-color: white;
+            box-sizing: border-box;
+            border-radius: 7px;
+            align-items: center;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 15px;
+            margin-top: 150px;
+            box-shadow: 2px 2px 10px 15px rgb(40, 26, 78);
+        }
+
+        h1 {
+            text-align: center;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        #btn {
+            border: none;
+            background-color: rgb(47, 89, 225);
+            border-radius: 15px;
+            height: 35px;
+            width: 180px;
+            margin-left: 70px;
+            margin-right: 50px;
+            padding: 10px;
+            text-align: center;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin-bottom: 20px;
+            font-weight: 15px;
+            color: aliceblue;
+            margin-top: 12px;
+        }
+
+        #btn:hover {
+            background-color: rgb(28, 38, 232);
+            cursor: pointer;
+
+        }
+
+        a:hover {
+            color: rgb(12, 61, 129);
+        }
+
+        a {
+            text-decoration: none;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        #text {
+
+            height: 25px;
+            width: 170px;
+            box-shadow: 0px 1px gray;
+            font-size: auto;
+            margin-top: 10px;
+            border: none;
+        }
+
+        label {
+            color: rgb(65, 65, 65);
+            font-size: 16px;
+            text-align: start;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin: 8px;
+            padding: 10px;
+        }
+
+        .signup {
+            text-align: center;
+            margin-left: 70px;
+        }
+
+        #fp {
+            cursor: pointer;
+            margin-left: 80px;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div class="box">
+
+        <form>
+
+            <header>
+                <h1>login</h1>
+            </header>
+            <hr>
+            <main>
+                <label>Username</label>
+                <input type="text" name="username" id="text"><br><br>
+
+                <label>Password</label>
+                <input type="password" name="" id="text"><br><br><br>
+
+                <label id="fp">Forget password?</label><br><br>
+
+                <button type="button" id="btn">Login</button><br><br>
+
+                <label class="signup">Not a member?
+                    <a href="signup.html">Sign up</a>
+                </label>
+
+
+
+            </main>
+
+        </form>
+    </div>
+
+</body>
+
+</html>
