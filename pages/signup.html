@@ -1,35 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../style.css" />
     <style>
         body {
-            background-color: rgb(195, 195, 232);
+            background-color: rgb(210, 198, 240);
         }
-
-        .box {
-            width: 350px;
-            height: 400px;
+        .box{
             background-color: white;
-            box-sizing: border-box;
-            border-radius: 7px;
-            margin-left: auto;
+            width: 350px;
+            height: 410px;
+            margin-left:auto;
             margin-right: auto;
+            margin-top: 150px;
+            border-radius: 7px;
             padding: 15px;
             margin-top: 150px;
             box-shadow: 2px 2px 10px 15px rgb(40, 26, 78);
         }
-
-        h1 {
+        h1{
+             
+           margin-top: 10px;
             text-align: center;
-            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            
         }
-
-        #btn {
+       
+        #info{
+            height: 25px;
+            width: 250px;
+            box-shadow: 0px 1px gray;
+            font-size: auto;
+            margin-top: 10px;
+            border: none;
+            margin-left: 20px;
+            cursor: pointer;
+    
+        }
+        label{
+            color: rgb(65, 65, 65);
+            font-size: 16px;
+            text-align: start;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin: 8px;
+            padding: 10px;
+        }
+        main{
+            margin-left: 10px;
+            margin-top: 15px;
+        }
+        button{
             border: none;
             background-color: rgb(47, 89, 225);
             border-radius: 15px;
@@ -43,58 +66,20 @@
             margin-bottom: 20px;
             font-weight: 15px;
             color: aliceblue;
-            margin-top: 12px;
-        }
-
-        #btn:hover {
-            background-color: rgb(28, 38, 232);
+            margin-top: 15px;
             cursor: pointer;
-
         }
-
-        a:hover {
-            color: rgb(12, 61, 129);
-        }
-
-        a {
+        a{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
             text-decoration: none;
-            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        a:hover {
+            color: rgb(8, 73, 164);
         }
 
-        #text {
-
-            height: 25px;
-            width: 250px;
-            box-shadow: 0px 1px gray;
-            font-size: auto;
-            margin-top: 5px;
-            border: none;
-            margin-left: 20px;
-        }
-
-        label {
-            color: rgb(65, 65, 65);
-            font-size: 16px;
-            text-align: start;
-            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-            margin: 8px;
-            padding: 10px;
-        }
-
-        .signup {
-            text-align: center;
-            margin-left: 60px;
-        }
-
-        #fp {
-            cursor: pointer;
-            margin-left: 80px;
-        }
     </style>
 </head>
-
 <body>
-
 
     <div class=" Navbar ">
 
@@ -107,11 +92,11 @@
             </a>
         </div>
         <div class="menu ">
-            <a href="# ">My Library
+            <a href="../pages/Mylab.html">My Library
             </a>
         </div>
         <div class="menu ">
-            <a href="./pages/login.html">Login
+            <a href="../pages/login.html">Login
             </a>
         </div>
         <div class="menu ">
@@ -119,42 +104,32 @@
             </a>
         </div>
     </div>
-
-
     <div class="box">
-
-        <form>
-
+        <form >
             <header>
-                <h1>login</h1>
+                <h1>Signup</h1>
             </header>
             <br>
             <hr>
-            <br>
             <main>
-                <label>Username</label>
+                <label>Full Name</label>
                 <br>
-                <input type="text" name="username" id="text" required><br><br>
-
-                <label>Password</label>
+                <input type="text" name="" id="info" required><br><br>
+                <label> Email</label>
                 <br>
-                <input type="password" name="" id="text" required><br><br><br>
-
-                <label id="fp">Forget password?</label><br>
-
-                <button type="button" id="btn">Login</button><br>
-
-                <label class="signup">Not a member?
-                    <a href="./signup.html">Sign up</a>
-                </label>
-
-
-
+                <input type="email" name="" id="info" required><br><br>
+                <label> Password</label>
+                <br>
+                <input type="password" name="" id="info" required><br><br>
+                <button>Create account</button><br>
+                <label id="login">Already have an account?</label>
+                <a href="./login.html">Login</a>
             </main>
 
+
         </form>
+        
+        
     </div>
-
 </body>
-
 </html>
