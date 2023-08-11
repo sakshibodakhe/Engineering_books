@@ -1,6 +1,14 @@
 * {
     margin: 0px;
 }
+body{
+    background-image: url("https://static8.depositphotos.com/1008939/905/i/450/depositphotos_9059964-stock-photo-young-man-on-floor-using.jpg");
+    width: auto;
+    height: auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
 
 .Navbar {
     width: 100%;
