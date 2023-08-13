@@ -78,3 +78,37 @@
             display: none;
         }
     }
+    
+    .footer {
+        background-color: rgb(36, 36, 71);
+        width: 100%;
+        margin-top: auto;
+        color: white;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    
+    .row {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    ul {
+        list-style: none;
+    }
+    
+    h4 {
+        font-size: 20px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    
+    ul li {
+        padding: 2px;
+        margin-top: 10px;
+    }
+    
+    ul li a {
+        text-decoration: none;
+        color: white;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
