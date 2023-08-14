@@ -5,6 +5,59 @@
     <title>Books</title>
     <link rel="stylesheet" href="../style.css">
 </head>
+<style>
+             body {
+
+
+            background-color: rgb(182, 182, 184);
+            }
+            .box {
+            width: 350px;
+            height: 400px;
+            /* background-color: rgb(169, 151, 241,0.1); */
+            
+            box-sizing: border-box;
+            border-radius: 7px;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 15px;
+            margin-top: 150px;
+            box-shadow: 2px 2px 4px 3px rgba(116, 115, 117, 0.235);
+            
+        }
+        h1 {
+            text-align: center;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        label {
+            color: rgb(65, 65, 65);
+            font-size: 16px;
+            text-align: start;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin: 8px;
+            padding: 10px;
+        }
+        #text {
+            height: 25px;
+            width: 250px;
+            box-shadow: 0px 1px gray;
+            font-size: auto;
+            margin-top: 5px;
+            border: none;
+            margin-left: 20px;
+           
+        }
+        #msg{
+            margin-left: 15px;
+            box-shadow: 0px 1px gray;
+            font-size: auto;
+            border: none;
+            margin-left: 20px;
+            width: 250px;
+    
+        }
+        
+</style>
 
 <body>
 
@@ -28,6 +81,33 @@
 
         </Nav>
     </header>
+
+    <div class="box">
+
+        <form>
+
+            <header>
+                <h1>feedback</h1>
+            </header>
+            <br>
+            <hr>
+            <br>
+            <main>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="text" placeholder="Your email Address">
+                <br>
+                <label for="text">Subject</label>
+                <input type="text" name="text" id="text" placeholder=" summary of your observation">
+                <br>
+                <br>
+                <label for="msg">Message</label>
+                <textarea name="msg" id="msg" cols="30" rows="10"></textarea>
+
+
+            </main>
+
+        </form>
+    </div>
 
     <footer class="footer">
         <div class="container">
