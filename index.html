@@ -3,10 +3,8 @@
   <head>
     <title>Books</title>
     <link rel="stylesheet" href="path/to/bootstrap/css/bootstrap.min.css" />
-    <link
-      rel="stylesheet"
-      href="path/to/font-awesome/css/font-awesome.min.css"
-    />
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"/>
     <link rel="stylesheet" href="style.css" />
   </head>
 
@@ -29,7 +27,27 @@
         <img src="./Images/menu bar.png" id="menu-bar" />
       </nav>
     </header>
-    <h1>hello world</h1>
+
+    <div class="carousel" data-flickity='{"groupCells": true}'>
+      <img src="./Images/quote1.avif" class="carousel-cell">
+      <img src="./Images/quote5.avif" class="carousel-cell">
+      <img src="./Images/quote2.avif" class="carousel-cell">
+      <img src="./Images/quote3.avif" class="carousel-cell">
+      <img src="./Images/quote4.avif" class="carousel-cell">
+      <img src="./Images/quote6.avif" class="carousel-cell">
+      <img src="./Images/quote7.avif"  class="carousel-cell">
+      <img src="./Images/quote8.avif" class="carousel-cell">
+      <img src="./Images/quote9.webp"  class="carousel-cell">
+      <img src="./Images/quote10.webp" class="carousel-cell">
+      <img src="./Images/quote11.avif" class="carousel-cell">
+      <img src="./Images/quote13.avif"  class="carousel-cell">
+      <img src="./Images/quote14.avif" class="carousel-cell">
+      <img src="./Images/quote15.jpg"  class="carousel-cell">
+      <img src="./Images/quote10.webp" class="carousel-cell">
+    </div>
+    
+
+
     <footer class="footer">
       <div class="container">
         <div class="row">
@@ -73,5 +91,7 @@
         </div>
       </div>
     </footer>
+
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
   </body>
 </html>
